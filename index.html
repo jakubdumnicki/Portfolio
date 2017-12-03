@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Moje własne portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <font face="Lato"></font>
 </head>
 
@@ -18,28 +19,102 @@
                 <li>Kontakt</li>
             </ul>
         </nav>
-        <h1>Jakub Dumnicki</h1>
-        <h2>Front-End Developer</h2>
+        <div>
+            <h1>Jakub <span>Dumnicki</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
     </header>
     <section>
         <article>
+            <br>
+            <br>
             <h3>O mnie</h3>
+            <br>
+            <br>
+            <img class='photo' src="img/Jakub%20Dumnicki-1.jpg" alt="Jakub Dumnicki">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.vvvvvLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet/ Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.vvvvvLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
         </article>
-        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.vvvvvLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet/ Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.vvvvvLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
-        <article>
+        <article id="skills">
             <h3>Umiejętności</h3>
+            <br>
+            <br>
             <p> Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs</p>
-            <img class='10' src="icons/css3.png" alt="HTML5">
-            <img class='10' src="icons/html5.png" alt="CSS3">
-            <img class='10' src="icons/js.png" alt="JavaScript">
-            <img class='10' src="icons/jquery.png" alt="jQuery">
+
+            <div class="block">
+                <div class="icons"><img src="icons/css3.png" alt="HTML5">
+                    <p>HTML3</p>
+                </div>
+                <div class='icons'><img src="icons/html5.png" alt="CSS3">
+                    <p>CSS3</p>
+                </div>
+                <div class="icons"><img src="icons/js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="icons"><img src="icons/jquery.png" alt="jQuery">
+                    <p>jQuery</p>
+                </div>
+            </div>
         </article>
         <article>
             <h3>Portfolio</h3>
+            <br>
+            <br>
             <p>Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs Lorem jaifjasojafsojfs </p>
+            <div class="image-container">
+                <div id="img1" class="img">
+                    <img src="img/portfolio1.jpg">
+                    <p class="hidden1"></p>
+                </div>
+                <!--
+                -->
+                <div id="img2" class="img">
+                    <img src="img/portfolio2.jpg">
+                    <p class="hidden1"></p>
+                </div>
+                <!--
+                -->
+                <div id="img3" class="img">
+                    <img src="img/portfolio4.jpg">
+                    <p class="hidden1"></p>
+                </div>
+            </div>
         </article>
     </section>
     <footer>
+        <article class="main-contact">
+            <div class="kontakt1">
+                <h4>Jakub Dumnicki</h4>
+                <br>
+                <br>
+                <br>
+                <div>ul.Kaliny Jędrusik 4b/2</div>
+                <div>01-748 Warszawa</div>
+                <br>
+                <div>tel: 695 118 778</div>
+                <div><a href="mailto:jakubdumnicki@interia.pl">jakubdumnicki@interia.pl</a></div>
+                <ul>
+                    <br>
+                    <i class="fa fa-facebook" style="font-size:40px;"></i>
+                    <i class="fa fa-google-plus" aria-hidden="true" style="font-size:40px;"></i>
+                    <i class="fa fa-twitter" aria-hidden="true" style="font-size:40px;"></i>
+                    <i class="fa fa-linkedin" style="font-size:40px;"></i>
+                </ul>
+            </div>
+            <br>
+
+            <div class="kontakt2">
+                <br>
+                <br>
+                <input type="text" name="Imię i nazwisko" id="Imię i nazwisko" placeholder="Imię i nazwisko">
+
+                <input type="text" name="E-mail" id="E-mail" placeholder="E-mail">
+                <textarea type="text" name="Treść wiadomości" id="Treść wiadomości" placeholder="Treść wiadomości" cols="30" rows="10"></textarea>
+
+                <input type="submit" name="submit" value="Wyślij">
+
+            </div>
+        </article>
+        <h5>Copyright &copy; Jakub Dumnicki</h5>
     </footer>
 </body>
 
